@@ -51,7 +51,44 @@
 
         word-spacing: 20px;
 
-        text-shadow: 2px 2px 5px red
+        color: red;
+       }
+
+       .bg-img{
+        width: 400px;
+        height: 400px;
+        color: white;
+        background-image: url(https://th.bing.com/th/id/OIP.cXlP9ID6Vy6Zh3weIIpU6AHaFj?o=7rm=3&rs=1&pid=ImgDetMain);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 20px;
+        padding-left: 20px;
+       }
+
+       .card{
+        width: 200px;
+        height: 200px;
+        background-color: greenyellow;
+        margin-top: 10px;
+        
+       }
+
+       .flex{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding-bottom: 20px;
+       }
+
+       .grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+       }
+
+       .block{
+        display: block;
+        margin: 10px;
        }
     </style>
 </head>
@@ -83,5 +120,39 @@
     <p class="font">
         this is a sample text
     </p>
+
+    <div class="bg-img">
+       welcome to bg tutorial
+    </div>
+
+    <!-- Flexbox -->
+     <div class="flex">
+        <div class="card">This is sample div 1</div>
+        <div class="card">This is sample div 2</div>
+        <div class="card">This is sample div 3</div>
+        <div class="card">This is sample div 4</div>
+        <div class="card">This is sample div 5</div>
+        <div class="card">This is sample div 6</div>
+     </div>
+
+     <!-- Grid -->
+     <div class="grid">
+        <div class="card">This is sample div 1</div>
+        <div class="card">This is sample div 2</div>
+        <div class="card">This is sample div 3</div>
+        <div class="card">This is sample div 4</div>
+        <div class="card">This is sample div 5</div>
+        <div class="card">This is sample div 6</div>
+     </div>
+
+    <!-- block -->
+     <div class="block">
+        <div class="card">This is sample div 1</div>
+        <div class="card">This is sample div 2</div>
+        <div class="card">This is sample div 3</div>
+        <div class="card">This is sample div 4</div>
+        <div class="card">This is sample div 5</div>
+        <div class="card">This is sample div 6</div>
+     </div>
 </body>
 </html>
